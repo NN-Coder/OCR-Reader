@@ -46,7 +46,7 @@ def ocr_space_file(filename, overlay=False, api_key="K87947986188957", language=
     return r.content.decode()
 
 #running driver code using function mechanics and folder iteration
-path = "C://Users/neiln/OneDrive/Documents/OCR_Docs/OCR_Images"
+path = "_____" #my data redacted
 os.chdir(path)
 for curfile in os.listdir():
     if curfile.endswith(".jpg"):
