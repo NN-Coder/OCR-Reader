@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-def ocr_space_file(filename, overlay=False, api_key="K87947986188957", language='eng'):
+def ocr_space_file(filename, overlay=False, api_key="____", language='eng'):
     #OCR API specs
     """ OCR.space API request with local file.
         Python3.5 - not tested on 2.7
